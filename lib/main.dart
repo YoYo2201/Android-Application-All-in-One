@@ -805,7 +805,7 @@ class Screen8 extends StatelessWidget {
                         icon: new Image.asset(
                           'assets/icons/wynk.png',
                         ),
-                        iconSize: 160.0,
+                        iconSize: 150.0,
                       ),
                       IconButton(
                         onPressed: () {
@@ -815,7 +815,7 @@ class Screen8 extends StatelessWidget {
                         icon: new Image.asset(
                           'assets/icons/gaana.png',
                         ),
-                        iconSize: 160.0,
+                        iconSize: 150.0,
                       ),
                     ],
                   ),
@@ -823,11 +823,11 @@ class Screen8 extends StatelessWidget {
                     children: [
                       IconButton(
                         onPressed: () {
-                          url = 'https://open.spotify.com/';
+                          url = 'https://www.jiosaavn.com/';
                           Navigator.push(context, MaterialPageRoute(builder: (context) => website()));
                         },
                         icon: new Image.asset(
-                          'assets/icons/spotify.png',
+                          'assets/icons/jio.png',
                         ),
                         iconSize: 160.0,
                       ),
@@ -839,19 +839,9 @@ class Screen8 extends StatelessWidget {
                         icon: new Image.asset(
                           'assets/icons/youtube_music.png',
                         ),
-                        iconSize: 160.0,
+                        iconSize: 150.0,
                       ),
                     ],
-                  ),
-                  IconButton(
-                    onPressed: () {
-                      url = 'https://www.jiosaavn.com/';
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => website()));
-                    },
-                    icon: new Image.asset(
-                      'assets/icons/jio.png',
-                    ),
-                    iconSize: 200.0,
                   ),
                 ],
               ),

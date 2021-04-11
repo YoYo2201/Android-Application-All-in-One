@@ -62,7 +62,6 @@ flutter:
   assets:
     - assets/image.png
     - assets/icons/wynk.png
-    - assets/icons/spotify.png
     - assets/icons/jio.png
     - assets/icons/gaana.png
     - assets/icons/youtube_music.png
